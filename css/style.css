@@ -145,6 +145,7 @@ display: flex;
       text-align: center;
       color: #ffffff;
     padding:188px 0;
+    top: 72px;
   }
 
  
@@ -200,9 +201,6 @@ display: flex;
     padding: 120px 0;
 }
 
-.approach-title {
-  
-}
 
 .approach-list {
 list-style: none;
