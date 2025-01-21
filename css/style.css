@@ -141,12 +141,18 @@ display: flex;
 }
 
   .hero {
-      background-color: #2e2f42;
+position: relative;
+    width: 100%;
+    background-color: #2e2f42;
       text-align: center;
       color: #ffffff;
     padding:188px 0;
-    background-image: url(./images/people-office.jpg);
-  }
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
  
   .hero-title {
