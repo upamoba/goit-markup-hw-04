@@ -109,10 +109,9 @@ margin-right: 76px;
     text-decoration: none;
     padding: 24px 0;
         display: inline-block;
+        transition: color 0.3s ease-in-out;
 }
-.nav-item{
 
-}
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
@@ -133,6 +132,7 @@ display: flex;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
 .contact-link:hover,
@@ -145,6 +145,7 @@ display: flex;
       text-align: center;
       color: #ffffff;
     padding:188px 0;
+    background-image: url(./images/people-office.jpg);
   }
 
  
@@ -178,11 +179,13 @@ display: flex;
         margin: 0 auto;
         min-width: 169px;
         border-radius: 4px;
+        transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404bbf;
+    transform: scale(1.05);
 }
 .visually-hidden {
     position: absolute;
