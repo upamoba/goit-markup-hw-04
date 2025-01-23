@@ -26,7 +26,8 @@
 body {
     font-family: 'Roboto', sans-serif
     color: #434455;
-    background-color: #FFFFFF;}
+    background-color: #FFFFFF;
+}
 
   * {
       margin: 0;
@@ -487,9 +488,30 @@ font-family: "Roboto", sans-serif;
     max-width: 264px;
     text-align: left;
 }
-.social-media{
+.social-container {
 
+  position: absolute;
+    width: 208px;
+    height: 80px;
+    left: 540px;
+    top: 3256px;
+    text-align: center;
 }
-.social-media a {
-color: white;
+.social-title {
+  font-size: 16px;
+    font-weight: bold;
+   color: rgb(255, 255, 255);
+    margin-bottom: 16px
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.ico-instagram,
+.ico-twitter,
+.ico-facebook,
+.ico-linkedin{
+    width: 24px;
+    height: 24px;
 }
