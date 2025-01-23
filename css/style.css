@@ -418,7 +418,7 @@ transition-timing-function: ease;
     transition: bottom 0.3s ease-in-out;
 }
 .overlay-text {
-    padding:20px;
+    padding: 40px 32px 164px 32px;
     color: #ffffff;
             font-family: Roboto;
             font-size: 16px;
