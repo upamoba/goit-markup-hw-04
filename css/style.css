@@ -549,7 +549,7 @@ footer {
 .icon-wrapper:focus {
   background-color: #404bbf;
 }
-.social-icon {
+.icon-footer {
   width: 24px;
   height: 24px;
   fill: var(--color3, #f4f4fd);
