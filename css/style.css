@@ -344,7 +344,7 @@ a {
   text-align: center;
 }
 
-.social-icons {
+.social-icon {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -374,10 +374,7 @@ a {
   fill: #f4f4fd;
 }
 
-.icon-instagram,
-.icon-facebook,
-.icon-twitter,
-.icon-linkedin {
+.icon-file {
   width: 16px;
   height: 16px;
   cursor: pointer;
