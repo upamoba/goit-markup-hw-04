@@ -471,19 +471,28 @@ a {
 }
 
 footer {
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 3156px;
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 .footer .container {
-  text-align: left;
-  align-items: baseline;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
   justify-content: space-between;
-  gap: 120px;
+  align-items: baseline;
+}
+.footer-content {
+  display: flex;
+  align-items: baseline;
 }
 .footer-logo-container {
-  display: flex;
-  flex-direction: column;
   margin-right: 120px;
+  max-width: 264px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -494,7 +503,7 @@ footer {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-
+  display: block;
   margin-bottom: 16px;
 }
 
@@ -507,20 +516,21 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
-  text-align: left;
 }
 .social-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .social-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  display: block;
   margin-bottom: 16px;
 }
 .social-icons {
