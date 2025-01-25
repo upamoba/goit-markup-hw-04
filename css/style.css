@@ -484,6 +484,7 @@ footer {
   gap: 120px;
 }
 .footer-info {
+  margin-right: 120px;
   max-width: 264px;
 }
 .footer-logo {
@@ -514,7 +515,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 120px;
 }
 .social-title {
   font-weight: 500;
