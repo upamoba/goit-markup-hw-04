@@ -522,7 +522,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: left 120px;
+  margin-right: 120px;
   position: absolute;
   width: 208px;
   height: 80px;
