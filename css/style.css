@@ -488,9 +488,8 @@ footer {
   margin: 0 auto;
 }
 .footer-info {
-  position: absolute;
-  margin-left: 156px;
   margin-right: 120px;
+  margin-left: 156px;
   max-width: 264px;
   height: 112px;
 }
